@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color:rgb(3, 3, 39);
 }
@@ -16,7 +22,6 @@ body {
 .text-primary {
     color: white;
     font-size: 2rem;
-    text-align: center;
     font: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -25,7 +30,7 @@ body {
     background-color: black;
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding: 1rem;
     position: sticky;
     top: 0;
@@ -49,6 +54,11 @@ body {
     margin: 0 0.25rem;
 }
 
+#navbar ul li a:hover {
+    background-color: magenta;
+    border-radius: 5px;
+}
+
 .l-heading {
     font-size: 4rem;
     margin-bottom: 0.75rem;
@@ -67,16 +77,17 @@ body {
 .btn {
     display: inline-block;
     color: black;
-    background: purple;
-    padding: 0.5rem 2rem;
+    background: magenta;
+    padding: 0.75rem 2rem;
     border: none;
     border-radius: 5px;
     font: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.25rem;
 }
 
 .btn:hover {
-    background: magenta;
+    background: purple;
 }
 
 .btn-dark {
@@ -142,4 +153,30 @@ body {
     font: bold;
     text-align: center;
     color: #fff;
+}
+
+.zapati {
+    background: url(voidik.jpg);
+    padding: 1rem;
+    color: white;
+    text-align: center;
+}
+
+.text {
+    font-size: large;
+    margin: 1rem;
+    font: bold;
+}
+
+.odeslani {
+    text-decoration: none;
+    border:2px black solid;
+    border-radius: 1rem;
+    border-color: white;
+    color: white;
+    font-size: large;
+}
+
+.formular {
+    color: white;
 }
